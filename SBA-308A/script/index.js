@@ -14,7 +14,7 @@ function createCatList(catList) {
    <select>
       <option> Choose a cat </option>
    ${catList.map(function (container) {
-          return `<option value="${container.id}>${container.name}</option>`;
+          return `<option value="${container.id}">${container.name}</option>`;
      }).join('')}
      </select>
   `
