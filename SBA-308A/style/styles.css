@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+h1{
+    font-size: 30px;
+
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#image-container{
+    width:40%;
+    height:580px;
+    background-color: lemonchiffon;
+    border-radius: 10px;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btnClick{
+    cursor:pointer;
+    justify-content: center;
+}
+
+#image{
+   
+    border:5px solid #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn{
+    margin: 4px 2px;
+    border-radius: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+  
