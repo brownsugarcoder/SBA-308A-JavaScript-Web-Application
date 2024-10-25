@@ -20,7 +20,7 @@ function createCatList(catList) {
   `
 }
 
-function setupEventListeners() {
+//function setupEventListeners() {
 document.addEventListener('DOMContentLoaded', () => {
 let btn = document.getElementById('btnClick');
 let image = document.getElementById('image');
@@ -39,7 +39,7 @@ btn.addEventListener('click', function () {
     console.error('error fetching images');
   }
 });
-}  
+//}  
 
   //  })
 //})
